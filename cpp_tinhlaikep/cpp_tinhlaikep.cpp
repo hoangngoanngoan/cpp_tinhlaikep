@@ -16,6 +16,7 @@ int main()
     for (int i = 1; i <= sonam; i++) {
         tienlai = tiengui * laisuat;
         cout << "|\tTien lai nam thu: " << i  << " la: " << tienlai << endl;
+        cout << "|\tTien von la: " << tiengui << endl;
         tiengui = tienlai + tiengui;
         cout << "|\tTong tien nam thu " << i << " cong lai la: " << tiengui << endl;
     }    
