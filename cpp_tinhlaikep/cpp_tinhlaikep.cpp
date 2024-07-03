@@ -17,7 +17,7 @@ int main()
         tienlai = tiengui * laisuat;
         cout << "|\tTien lai nam thu: " << i  << " la: " << tienlai << endl;
         tiengui = tienlai + tiengui;
-        cout << "|\tTong tien nam thu: " << i << " cong lai la: " << tiengui << endl;
+        cout << "|\tTong tien nam thu " << i << " cong lai la: " << tiengui << endl;
     }    
     cout << "------------------------------------------------";
     return 0;
