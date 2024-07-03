@@ -12,12 +12,14 @@ int main()
     //cout << "Nhap lai suat: "; cin >> laisuat;
     int sonam; cout << "Nhap so nam gui: "; cin >> sonam;
     
+    cout << "------------------------------------------------\n";
     for (int i = 1; i <= sonam; i++) {
         tienlai = tiengui * laisuat;
-        cout << "Tien lai nam thu: " << i  << " la: " << tienlai << endl;
+        cout << "|\tTien lai nam thu: " << i  << " la: " << tienlai << endl;
         tiengui = tienlai + tiengui;
-        cout << "Tong tien nam thu: " << i << " la: " << tiengui << endl;
+        cout << "|\tTong tien nam thu: " << i << " la: " << tiengui << endl;
     }    
+    cout << "------------------------------------------------";
     return 0;
 }
 
